@@ -24,7 +24,7 @@ snitchimg = loadImage("hpsnitch.png")
 function setup(){
 createCanvas(windowWidth-50,windowHeight-50);
 backdrop = createSprite(200,200,displayWidth,displayHeight);
-backdrop.scale=2.15
+backdrop.scale=2.75
 backdrop.addImage(backdropimg)
  gameover= createSprite(200,200,80,10);
 gameover.scale=0.15;
